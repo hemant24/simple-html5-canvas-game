@@ -1,5 +1,5 @@
-simple-html5-canvas-game
-========================
+Suresh and Ramesh (simple-html5-canvas-game)
+================================================
 
 This is simple html5 canvas based game. Game is about two twins zombie brothers named Suresh and Ramesh. They get trap in a strange world in which 
 Suresh has to go to Ramesh place and vice a versa to come out of this world.

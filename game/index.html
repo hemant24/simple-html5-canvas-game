@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>JATT</title>
+		<script src = "js/boundary.js"></script>
+		<script src = "js/levels.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+	<style>
+		#arenabk{background-color:#E9EFF2;}
+		#layers{position:relative; margin: 0 auto;width:900px;}
+		#layers #arenabk{position:absolute;}
+		#layers #arena{position:absolute;}
+		#layers #notification{position:absolute;background-color:black; display:none; opacity:0.5;}
+
+		#clockarea{top:23px;left:-130px;position:absolute;width: 30px;
+		text-align: center;
+		height: 20px;
+		font-size: 100px;}
+	</style>
+	<body>
+	
+	<section id="layers">
+		<h1 style="text-align:center;"> Suresh N Ramesh </h1>
+		<h1 id="levelinfo" style="text-align:center; position:absolute; top:-20px;"></h1>
+		<div id="clockarea"></div>
+		<canvas id="arenabk" width="900px;" height="600px;" ></canvas>
+		<canvas id="arena" width="900px;" height="600px;" ></canvas>
+		<canvas id="notification" width="900px;" height="600px;" ></canvas>
+	</section>
+	
+	
+		<img src="image/zombie_0.png" id="player1" style="display:none;"></img>
+		<img src="image/zombie_0.png" id="player2" style="display:none;"></img>
+		
+	</body>
+</html>
