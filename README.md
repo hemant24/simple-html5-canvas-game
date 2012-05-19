@@ -5,6 +5,7 @@ This is simple html5 canvas based game. Game is about two twins zombie brothers 
 Suresh has to go to Ramesh place and vice a versa to come out of this world.
 
 This simple game show how to implement
+
 1) Sprite animation
 2) Simple Collision detection
 3) Level Details
