@@ -1,7 +1,7 @@
 Suresh and Ramesh (simple-html5-canvas-game)
 ================================================
 
-This is simple html5 canvas based game. Game is about two twins zombie brothers named Suresh and Ramesh. They get trap in a strange world in which 
+This is simple html5 canvas based game. Game is about twins zombie named Suresh and Ramesh. They get trap in a strange world in which 
 Suresh has to go to Ramesh place and vice a versa to come out of this world.
 
 This simple game show how to implement
@@ -21,6 +21,6 @@ HOW TO PLAY
  
 RULE
 ==========
-Occupy other brother's origin place by avoiding collision with walls before time runs out. Collision with wall will reduce the time 3 times.
+Occupy other brother's origin place by avoiding collision with walls before time runs out. Collision with wall will reduce the time 3 sec.
 
 
