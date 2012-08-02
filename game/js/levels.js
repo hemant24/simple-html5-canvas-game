@@ -1,7 +1,6 @@
 var levels=[
 
 
-
  { walls:[{"x":3,"y":431,"height":11,"width":225},{"x":216,"y":69,"height":366,"width":11},{"x":216,"y":69,"height":11,"width":345},{"x":561,"y":68,"height":11,"width":196},{"x":757,"y":68,"height":225,"width":11},{"x":759,"y":284,"height":11,"width":136},{"x":2,"y":562,"height":11,"width":336},{"x":338,"y":175,"height":387,"width":11},{"x":348,"y":175,"height":11,"width":280},{"x":628,"y":175,"height":251,"width":11},{"x":632,"y":426,"height":11,"width":269}]
  ,  playerPosition :[{"x":32,"y":483,"height":50,"width":50} , {"x":787,"y":340,"height":50,"width":50}],time:20} 
  ,

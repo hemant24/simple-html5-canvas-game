@@ -1,6 +1,7 @@
 
 $(function(){
 
+
 	var zombieLand = {};
 	zombieLand.pressedKeys=[];
 	zombieLand.assets=[];//assert must have x , y , height , width for collision detection
@@ -157,7 +158,7 @@ $(function(){
 			zombieLand.isTimeUp=!zombieLand.isTimeUp;
 			clearInterval(zombieLand.timer);
 			showNotification("Game Over!!");
-			
+			$("#restart").show();
 			//initGame();//initialize with level one.
 			
 		}else{
@@ -356,5 +357,14 @@ $(function(){
 	
 	
 	initGame(zombieLand.level);
+	
+	$("#restart").click(function(){
+		$("#notification").fadeOut();
+		clearInterval(zombieLand.timer);
+		setTimeout(function(){initGame(zombieLand.level);},1002);
+		//$("#restart").hide();
+	});
+	
+	
 	
 });
